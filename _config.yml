@@ -1,0 +1,12 @@
+blogname: XiRain
+description:  勿忘心安
+url: http://xirain.com
+permalink: /posts/:title
+markdown: redcarpet
+future: true
+poole:
+    word_separator: "-"
+include: [".well-known"]
+sass:
+    sass_dir: _sass
+    sourcemap: true

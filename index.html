@@ -1,0 +1,20 @@
+---
+layout: scaffold
+---
+<div class="hero">
+  <div class="hero-wrapper">
+    <div class="content">
+      <h1>{{ site.blogname }}</h1>
+      <p>但行好事，莫问前程。</p>
+      <h2>Navigation</h2>
+      {% include nav.html %}
+    </div>
+  </div>
+  <a class="arrow-down" href="#writing"></a>
+</div>
+<main>
+  <div class="content" id="writing">
+    <h1>博文</h1>
+    {% include post-index.html %}
+  </div>
+</main>
